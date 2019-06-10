@@ -1,6 +1,6 @@
 # Laboratorio git parte 1
 
-[git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+El enlace: [git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html) tiene una breve descripción de los comandos que se emplearan a lo largo del presente laboratorio. Adicionalmente en el classroom del curso se pondran algunas refence sheet que le ayudarán a comprender mejor la potencia del git.
 
 ## Parte 1 ## 
 
@@ -138,7 +138,14 @@ cat readme.md
 
 Si analiza todo usted podra notar que el readme ya se encuentra actualizado tanto local como remotamente.
 
-
+## Enlaces de utilidad ##
+1. [git - la guía sencilla](https://rogerdudler.github.io/git-guide/index.es.html)
+2. [git book](https://git-scm.com/book/es/v2)
+3. [Run a course with GitHub](https://happygitwithr.com/classroom-overview.html)
+4. [Una referencia visual de Git](http://marklodato.github.io/visual-git-guide/index-es.html)
+5. [Teacher training to master Git and GitHub](https://education.github.com/teachers/advisors)
+6. [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+7. [Git Cheatsheet - an interaction from NDP Software](http://ndpsoftware.com/git-cheatsheet.html#loc=;)
 
 
 
