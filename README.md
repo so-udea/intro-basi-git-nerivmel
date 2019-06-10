@@ -33,6 +33,7 @@ Guarde y ejecute los siguientes comandos:
 ```bash
 clear
 git status 
+git diff
 git add readme.md 
 git status 
 git commit -m 'Actualizando readme con la agenda del dia'
@@ -41,4 +42,15 @@ git log
 ```
 
 Capture una imagen donde se evidencie lo que se hizo anteriormente llamandola figura2.png y guardela en demo.
+
+```bash
+clear
+git status
+git diff
+git add *.png
+git commit -m 'Agregando las capturas de evidencia'
+git status
+git log
+```
+
 
