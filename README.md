@@ -81,7 +81,13 @@ Ahora, actulice el repositorio remoto:
 git push -u origin master
 ```
 
-Ahora, actulice el repositorio remoto, notara que ya se encuentra la captura figura3.png en el repositorio en github.
+## Punto 4 ##
+
+Ahora, actualice el repositorio remoto en el browser, notará que ya se encuentra la captura figura3.png en el repositorio en github. Observe la parte relacionada con los commits dando click en la parte asiciada al cuadro rojo que se muestra en la siguiente figura:
+
+![fig_commits](comits-history.png)
+
+Una vezde click alli podrá ver la historia de las modificaciones realizadas a lo largo de la evolución del proyecto. Digite en la consola el comando ```git log``` y comparelo con lo que aparece en el github: ¿Que puede deducir?
 
 
 
