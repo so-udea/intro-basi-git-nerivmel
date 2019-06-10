@@ -128,7 +128,15 @@ La siguiente figura muestrá esto, una vez hecho presione el botón commit.
 
 Si vuelve a cargar el readme notara que este ha cambiado. Luego observe los commits del repositorio github y comparelos con los del repositorio local (```git log```). ¿Coinciden?
 
+Ahora ejecute los siguientes comandos:
 
+```
+git pull
+git log
+cat readme.md
+```
+
+Si analiza todo usted podra notar que el readme ya se encuentra actualizado tanto local como remotamente.
 
 
 
