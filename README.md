@@ -90,6 +90,44 @@ Ahora, actualice el repositorio remoto en el browser, notará que ya se encuentr
 Una vezde click alli podrá ver la historia de las modificaciones realizadas a lo largo de la evolución del proyecto. Digite en la consola el comando ```git log``` y comparelo con lo que aparece en el github: ¿Que puede deducir?
 
 
+## Punto 5 ##
+
+Antes de iniciar este punto observe los contenidos del archivo readme.md mediante el comando ```cat readme.md``` y notará que el contenido de este es similar al siguiente:
+
+```bash
+# Agenda
+## ¿Qué hace un Sistema Operativo? ##
+* Definición de los Sistemas Operativos
+* Virtualización de Recursos
+* Objetivos de diseño de los Sistemas Operativos
+```
+
+Vamos a proceder entonces a modificar en el github dicho archivo dando click en el botón de edición tal y como lo muestra la siguiente figura:
+
+
+![edicion](edicion.png)
+
+Agregue ahora en el **readme.md** la linea:
+
+```
+> Eso es todo amigos
+```
+Tal como se ve en la siguiente figura resaltada:
+
+![add_linea](add_linea.png)
+
+Escriba como mensaje en el commit: 
+
+```
+Escribiendo la despedida en el readme
+```
+
+La siguiente figura muestrá esto, una vez hecho presione el botón commit. 
+
+![commit](commit.png)
+
+Si vuelve a cargar el readme notara que este ha cambiado. Luego observe los commits del repositorio github y comparelos con los del repositorio local (```git log```). ¿Coinciden?
+
 
 
 
