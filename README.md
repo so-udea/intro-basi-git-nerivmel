@@ -12,13 +12,33 @@ touch readme.md
 git add readme.md
 git reset readme.md
 git add readme.md (to get it back in the staging area)
-git commit -m 'commit empty readme'
+git commit -m 'creando un readme vacio'
 ```
+Capture una imagen donde se evidencie lo que se hizo anteriormente llamandola figura1.png y guardela en demo.
+
 ## Parte 2 ##
 
-Dentro de la carpeta **demo** cree un directorio llamado **evidencia** e ingrese en este:
+Empleando el editor favorito copie y pegue el siguiente codigo dentro del readme:
 
+```markdown
+# Agenda
+## ¿Qué hace un Sistema Operativo? ##
+* Definición de los Sistemas Operativos
+* Virtualización de Recursos
+* Objetivos de diseño de los Sistemas Operativos
 ```
-mkdir evidencia  (cd into it)
+
+Guarde y ejecute los siguientes comandos:
+
+```bash
+clear
+git status 
+git add readme.md 
+git status 
+git commit -m 'Actualizando readme con la agenda del dia'
+git status 
+git log
 ```
+
+Capture una imagen donde se evidencie lo que se hizo anteriormente llamandola figura2.png y guardela en demo.
 
